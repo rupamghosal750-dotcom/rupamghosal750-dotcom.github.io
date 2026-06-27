@@ -175,3 +175,47 @@ line-height:1.7;
     min-height:40px;
     margin:15px 0;
 }
+.about{
+    padding:100px 10%;
+    background:#0f172a;
+}
+
+.about h2{
+    text-align:center;
+    font-size:48px;
+    color:#38bdf8;
+    margin-bottom:50px;
+}
+
+.about-container{
+    max-width:1000px;
+    margin:auto;
+}
+
+.about-text{
+    background:#1e293b;
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,.3);
+}
+
+.about-text h3{
+    color:#38bdf8;
+    margin-bottom:20px;
+    font-size:30px;
+}
+
+.about-text p{
+    color:white;
+    line-height:1.8;
+    font-size:18px;
+}
+
+.about-info{
+    margin-top:30px;
+}
+
+.about-info p{
+    margin:15px 0;
+    font-size:18px;
+}
