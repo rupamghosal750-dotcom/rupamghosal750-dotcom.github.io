@@ -153,3 +153,18 @@ color:#38bdf8;
 .service-card p{
 line-height:1.7;
 }
+.profile-img{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid #38bdf8;
+    box-shadow:0 0 25px rgba(56,189,248,.5);
+    margin-bottom:30px;
+    transition:all .3s ease;
+}
+
+.profile-img:hover{
+    transform:scale(1.05);
+    box-shadow:0 0 40px rgba(56,189,248,.8);
+}
