@@ -296,3 +296,93 @@ line-height:1.7;
 .tally{
     width:95%;
 }
+/* ================= Experience Section ================= */
+
+.experience{
+    padding:100px 10%;
+    background:#111827;
+}
+
+.experience h2{
+    text-align:center;
+    font-size:50px;
+    color:#38bdf8;
+    margin-bottom:60px;
+}
+
+.timeline{
+    position:relative;
+    max-width:900px;
+    margin:auto;
+}
+
+.timeline::before{
+    content:"";
+    position:absolute;
+    left:50%;
+    top:0;
+    width:4px;
+    height:100%;
+    background:#38bdf8;
+    transform:translateX(-50%);
+}
+
+.timeline-item{
+    position:relative;
+    width:50%;
+    padding:20px 40px;
+}
+
+.timeline-item:nth-child(odd){
+    left:0;
+    text-align:right;
+}
+
+.timeline-item:nth-child(even){
+    left:50%;
+}
+
+.timeline-content{
+    background:#1e293b;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,.3);
+    transition:.3s;
+}
+
+.timeline-content:hover{
+    transform:translateY(-8px);
+    border:1px solid #38bdf8;
+}
+
+.timeline-content h3{
+    color:#38bdf8;
+    margin-bottom:10px;
+}
+
+.timeline-content h4{
+    margin-bottom:10px;
+}
+
+.timeline-content p{
+    line-height:1.7;
+}
+
+.timeline-item::before{
+    content:"";
+    position:absolute;
+    top:35px;
+    width:18px;
+    height:18px;
+    background:#38bdf8;
+    border-radius:50%;
+    z-index:2;
+}
+
+.timeline-item:nth-child(odd)::before{
+    right:-9px;
+}
+
+.timeline-item:nth-child(even)::before{
+    left:-9px;
+}
