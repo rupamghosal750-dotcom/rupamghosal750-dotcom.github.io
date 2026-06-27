@@ -528,3 +528,65 @@ line-height:1.7;
 .contact-info a:hover{
     color:#38bdf8;
 }
+/* ================= Responsive Design ================= */
+
+@media (max-width:768px){
+
+    nav{
+        flex-direction:column;
+        padding:20px;
+    }
+
+    nav ul{
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:15px;
+        margin-top:15px;
+    }
+
+    .hero h1{
+        font-size:40px;
+    }
+
+    #typing{
+        font-size:24px;
+    }
+
+    .hero p{
+        font-size:17px;
+    }
+
+    .profile-img{
+        width:150px;
+        height:150px;
+    }
+
+    .service-container{
+        grid-template-columns:1fr;
+    }
+
+    .contact-container{
+        grid-template-columns:1fr;
+    }
+
+    .timeline::before{
+        left:20px;
+    }
+
+    .timeline-item{
+        width:100%;
+        left:0 !important;
+        padding-left:60px;
+        text-align:left !important;
+    }
+
+    .timeline-item::before{
+        left:12px !important;
+    }
+
+    .footer-links{
+        flex-direction:column;
+        gap:15px;
+    }
+
+}
