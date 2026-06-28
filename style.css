@@ -667,3 +667,17 @@ z-index:999;
 transform:scale(1.1);
 
 }
+/* ================= Active Navbar ================= */
+
+nav ul li a.active{
+    color:#38bdf8;
+    font-weight:bold;
+}
+
+nav ul li a{
+    transition:.3s;
+}
+
+nav ul li a:hover{
+    color:#38bdf8;
+}
