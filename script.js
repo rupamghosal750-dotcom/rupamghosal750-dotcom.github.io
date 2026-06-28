@@ -1,9 +1,9 @@
 const texts = [
-    "Accounting Professional",
-    "GST Professional",
-    "Income Tax Specialist",
-    "TDS Compliance",
-    "ROC Compliance"
+    "Accounting & Taxation Professional",
+    "GST | TDS | ROC Compliance",
+    "Financial Reporting Specialist",
+    "Internal Audit Professional",
+    "Payroll & Compliance Expert"
 ];
 
 let index = 0;
