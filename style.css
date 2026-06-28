@@ -681,3 +681,8 @@ nav ul li a{
 nav ul li a:hover{
     color:#38bdf8;
 }
+/* ================= Responsive Design ================= */
+
+@media (max-width:768px){
+
+}
