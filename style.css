@@ -529,9 +529,18 @@ line-height:1.7;
     color:#38bdf8;
 }
 /* ================= Responsive Design ================= */
+/* Hamburger Menu */
 
+.menu-toggle{
+    display:none;
+    font-size:30px;
+    color:#38bdf8;
+    cursor:pointer;
+}
 @media (max-width:768px){
-
+.menu-toggle{
+    display:block;
+}
     nav{
         flex-direction:column;
         padding:20px;
@@ -691,13 +700,16 @@ nav{
 }
 
 nav ul{
-    flex-wrap:wrap;
-    justify-content:center;
-    gap:15px;
-    margin-top:15px;
-    padding:0 10px;
+    display:none;
+    width:100%;
+    flex-direction:column;
+    text-align:center;
+    margin-top:20px;
+    gap:20px;
 }
-
+nav ul.active{
+    display:flex;
+}
 .logo{
     font-size:32px;
 }
