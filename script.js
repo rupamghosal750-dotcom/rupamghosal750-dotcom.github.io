@@ -124,9 +124,14 @@ window.addEventListener("scroll", () => {
 
 const menuToggle = document.querySelector(".menu-toggle");
 const navMenu = document.querySelector("nav ul");
-
+const menuIcon = document.querySelector("#menuIcon");
 menuToggle.addEventListener("click", () => {
+
     navMenu.classList.toggle("active");
+
+    menuIcon.classList.toggle("fa-bars");
+    menuIcon.classList.toggle("fa-times");
+
 });
 // Close menu after clicking a link
 
