@@ -51,3 +51,41 @@ behavior:"smooth"
 });
 
 };
+// ================= Scroll Reveal Animation =================
+
+ScrollReveal({
+
+    distance: '60px',
+    duration: 1500,
+    delay: 200,
+    reset: false
+
+});
+
+ScrollReveal().reveal('.hero', {
+    origin: 'top'
+});
+
+ScrollReveal().reveal('.about', {
+    origin: 'left'
+});
+
+ScrollReveal().reveal('.services', {
+    origin: 'bottom'
+});
+
+ScrollReveal().reveal('.skills', {
+    origin: 'right'
+});
+
+ScrollReveal().reveal('.timeline', {
+    origin: 'left'
+});
+
+ScrollReveal().reveal('.contact', {
+    origin: 'bottom'
+});
+
+ScrollReveal().reveal('footer', {
+    origin: 'bottom'
+});
