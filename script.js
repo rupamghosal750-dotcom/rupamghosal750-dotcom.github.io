@@ -128,3 +128,10 @@ const navMenu = document.querySelector("nav ul");
 menuToggle.addEventListener("click", () => {
     navMenu.classList.toggle("active");
 });
+// Close menu after clicking a link
+
+document.querySelectorAll("nav ul li a").forEach(link => {
+    link.addEventListener("click", () => {
+        navMenu.classList.remove("active");
+    });
+});
