@@ -125,12 +125,12 @@ background:#38bdf8;
 color:black;
 }
 html{
-    scroll-behavior:smooth;
-    scroll-padding-top:80px;
+    scroll-behavior: smooth;
+    scroll-padding-top: 120px;
 }
 
 section{
-    scroll-margin-top:90px;
+    scroll-margin-top: 120px;
 }
 
 .services{
@@ -194,7 +194,7 @@ line-height:1.7;
     margin:15px 0;
 }
 .about{
-    padding:100px 10%;
+    padding:120px 10% 100px;
     background:#0f172a;
 }
 
