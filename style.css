@@ -626,3 +626,44 @@ line-height:1.7;
     transform:scale(1.1);
 
 }
+/* ================= Scroll Top ================= */
+
+#topBtn{
+
+position:fixed;
+
+bottom:100px;
+
+right:25px;
+
+width:55px;
+
+height:55px;
+
+border:none;
+
+border-radius:50%;
+
+background:#38bdf8;
+
+color:white;
+
+font-size:24px;
+
+cursor:pointer;
+
+display:none;
+
+box-shadow:0 8px 25px rgba(0,0,0,.35);
+
+transition:.3s;
+
+z-index:999;
+
+}
+
+#topBtn:hover{
+
+transform:scale(1.1);
+
+}
