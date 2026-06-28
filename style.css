@@ -116,6 +116,10 @@ html{
     scroll-padding-top:80px;
 }
 
+section{
+    scroll-margin-top:90px;
+}
+
 .services{
 padding:100px 80px;
 background:#111827;
