@@ -544,7 +544,7 @@ line-height:1.7;
     nav{
     flex-direction:column;
     padding:20px;
-    position:sticky;
+    position:fixed;
     top:0;
     z-index:1000;
 }
