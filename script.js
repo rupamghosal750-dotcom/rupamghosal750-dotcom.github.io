@@ -138,11 +138,9 @@ menuToggle.addEventListener("click", () => {
 document.querySelectorAll("nav ul li a").forEach(link => {
     link.addEventListener("click", () => {
 
-        setTimeout(() => {
-            navMenu.classList.remove("active");
-            menuIcon.classList.remove("fa-times");
-            menuIcon.classList.add("fa-bars");
-        }, 100);
+        navMenu.classList.remove("active");
+        menuIcon.classList.remove("fa-times");
+        menuIcon.classList.add("fa-bars");
 
     });
 });
